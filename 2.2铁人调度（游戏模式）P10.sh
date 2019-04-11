@@ -134,7 +134,7 @@ echo 1 > /sys/module/ged/parameters/gpu_debug_enable
 echo 1 > /sys/module/ged/parameters/boost_gpu_enable
 echo 1 > /sys/module/ged/parameters/ged_boost_enable
 echo 351000 > /sys/module/ged/parameters/gpu_bottom_freq
-echo 700000 > /sys/module/ged/parameters/gpu_cust_boost_freq
+echo 700000 > /sys/module/ged/parameters/gpu_cust_upbound_freq
 echo 1 > /sys/module/ged/parameters/gpu_dvfs_enable
 echo 1 > /sys/module/ged/parameters/gpu_idle
 
